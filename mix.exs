@@ -33,7 +33,7 @@ defmodule Phoenix.GenSocketClient.Mixfile do
 
   defp deps do
     [
-      {:websocket_client, "~> 1.2", optional: true},
+      {:websocket_client, "~> 1.5", optional: true},
       {:jason, "~> 1.1", optional: true},
       {:phoenix, "~> 1.3", only: :test},
       {:cowboy, "~> 1.0", only: :test},
